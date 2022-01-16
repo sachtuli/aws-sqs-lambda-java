@@ -1,0 +1,28 @@
+{
+  "Records": [
+    {
+      "messageId": "MessageID_1",
+      "receiptHandle": "MessageReceiptHandle",
+      "body": "{\n  \"reqInfo\": {\n    \"specVersion\": \"1.0\",\n    \"time\": \"2021-10-15T08:29:23+0000\",\n    \"relationshipId\": \"444-3492d-fd345\"\n  },\n  \"extractInfo\": {\n    \"geoList\": [\"0108111568\",\"0108001568\",\"010811000222\"],\n    \"source\": \"SQS\",\n    \"emailAddress\": \"abc@gmail.com\",\n    \"userID\": \"smith\",\n    \"destinationInfo\": {\n      \"action\": \"zip\",\n      \"notificationType\": \"event-bridge\",\n      \"destinationType\": \"sftp\",\n      \"destinationPath\": \"\\\\abc\\\\xyz\"\n    }\n  }\n}",
+      "md5OfBody": "fce0ea8dd236ccb3ed9b37dae260836f",
+      "md5OfMessageAttributes": "582c92c5c5b6ac403040a4f3ab3115c9",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:SQSQueue",
+      "eventSource": "aws:sqs",
+      "awsRegion": "us-west-2",
+      "attributes": {
+        "ApproximateReceiveCount": "2",
+        "SentTimestamp": "1520621625029",
+        "SenderId": "AROAIWPX5BD2BHG722MW4:sender",
+        "ApproximateFirstReceiveTimestamp": "1520621634884"
+      },
+      "messageAttributes": {
+        "Attribute": {
+          "stringValue": "AttributeValue1",
+          "stringListValues": [],
+          "binaryListValues": [],
+          "dataType": "String"
+        }
+      }
+    }
+  ]
+}

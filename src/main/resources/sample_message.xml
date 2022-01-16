@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventmsg>
+    <event processApp="AWS" ucaname="BatchId">92gz3d50-af0f-83ed-800e-f5794869sd51</event>
+    <parameters>
+        <parameter>
+            <key>relationshipKey
+            </key>
+            <value>AWS</value>
+        </parameter>
+        <parameter>
+            <key>message</key>
+            <value>
+                <entry>
+                    <key>geoList</key>
+                    <value>010811568,010800345</value>
+                </entry>
+                <entry>
+                    <key>relationshipId</key>
+                    <value>353-3dr454d-fdps345</value>
+                </entry>
+            </value>
+        </parameter>
+    </parameters>
+</eventmsg>
